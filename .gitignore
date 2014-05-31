@@ -1,0 +1,7 @@
+/.bundle
+/vendor
+
+/config.rb
+
+.DS_Store
+
