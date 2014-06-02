@@ -1,0 +1,3 @@
+API_KEY = '1234567890'
+API_SECRET = '1234567890'
+OAUTH_CALLBACK = 'http://127.0.0.1:4567/sessions/create'

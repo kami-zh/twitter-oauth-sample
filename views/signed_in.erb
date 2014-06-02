@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>Twitter OAuth Sample</title>
+  </head>
+  <body>
+    <h1>Signed in</h1>
+    <hr>
+    <a href="/signout">Sign out</a>
+    <hr>
+    <h2>User info</h2>
+    <table border="1">
+      <tr>
+        <th>user_id</th>
+        <th>screen_name</th>
+        <th>name</th>
+      </tr>
+      <tr>
+        <td><%= @user[:user_id] %></td>
+        <td><%= @user[:screen_name] %></td>
+        <td><%= @user[:name] %></td>
+      </tr>
+    </table>
+  </body>
+</html>
